@@ -5,10 +5,23 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* My Changes Below */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
   width: 600px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -16,6 +29,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +37,57 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+}
+
+
+/* Body Styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  
+  /* Their Solution
+  flex: 1; */
+}
+
+
+/* Footer Styling */
+.footer {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+}
+
+
+/* Link Styling */
+.left-links,
+.right-links {
+  padding: 0;
+  margin: 0 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.left-links li,
+.right-links li {
+  display: flex;
+  align-items: center;
+}
+
+.left-links a,
+.right-links a {
+  color: #777;
 }
