@@ -27,3 +27,69 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+
+/* -My Work Below- */
+
+/* General Page Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Header Styling */
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+/* Content Styling */
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.cardbox {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  flex: 0 0 300px;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  padding: 16px;
+}
+
+.sidebar ul {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 20px;
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
